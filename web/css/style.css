@@ -1,0 +1,84 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+body {
+	font-family: arial, sans-serif;
+	width: 100%;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: rgb(3, 10, 58);
+}
+header > h1 {
+	color: rgb(163, 158, 158);
+	text-shadow: 1px 1px #ddd;
+	font-size: 45px;
+	padding: 10px; 
+}
+nav {
+	height: 50px;
+	background: #030;
+}
+nav > ul {
+	padding: 10px;
+	list-style: none;
+}
+nav > ul > li {
+	display: inline;
+	padding: 10px 50px;
+}
+
+nav > ul > li > a:hover {
+	text-decoration: underline;
+}
+section {
+	height: 100px;
+}
+.match {
+	float:left;
+	margin: 22px;
+	margin-left: 20px;
+}
+.match h1 {
+	margin-bottom: 5px;
+	
+}
+.match h1 a {
+	text-decoration: none;
+	font-size: 30px;
+	color: #666;
+}
+.match a:hover {
+	text-decoration: underline;
+}
+.text {
+    margin-top: 40px;
+	margin-left: 50px;
+	
+}
+.val{
+    margin-bottom: 40px;
+	margin-left: 50px;
+}
+.table {
+	width: 70%;
+	margin: 10px 50px;
+}
+.table tr th{
+	background: rgb(28, 11, 63);
+	padding: 10px;
+	color: #ddd;
+}
+.table tr td{
+	margin: 15px;
+	border-bottom: 1px solid #eee;
+	padding: 10px;
+	text-align: center;
+}
+footer {
+	height: 50px;
+
+}
